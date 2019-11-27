@@ -12,6 +12,8 @@ public class Employee {
 	public int id;
 	public String name;
 	public String age;
+	
+	
 	public int getId() {
 		return id;
 	}
@@ -29,19 +31,6 @@ public class Employee {
 	}
 	public void setAge(String age) {
 		this.age = age;
-	}
-	public Employee(int id, String name, String age) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.age = age;
-	}
-	public Employee() {
-		super();
-	}
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", age=" + age + "]";
 	}
 	
 	

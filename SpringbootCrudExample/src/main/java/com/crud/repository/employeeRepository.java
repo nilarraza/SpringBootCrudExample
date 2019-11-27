@@ -8,4 +8,5 @@ import com.crud.model.Employee;
 @Repository
 public interface employeeRepository extends JpaRepository<Employee, Integer> {
 
+	
 }
