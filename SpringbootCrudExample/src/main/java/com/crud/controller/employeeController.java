@@ -37,10 +37,10 @@ public class employeeController {
 	
 	
 	@DeleteMapping("/deleteEmployee")
-	public String deleteEmployee(int id,ModelMap modelmap) {
+	public String deleteEmployee(int id) {
 		emRepo.deleteById(id);
-		modelmap.addAttribute("msg","Succesfully deleted");
-		return "list.jsp";
+		String msg="Succesfully deleted";
+		return msg;
 	}
 	
 	@GetMapping("/findEmployee")
